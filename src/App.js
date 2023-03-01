@@ -19,6 +19,7 @@ function App() {
     const randomContact =
       filteredContacts[Math.floor(Math.random() * filteredContacts.length)];
     const copy = [...contacts];
+    //test push
 
     copy.push(randomContact);
     setContacts(copy);
